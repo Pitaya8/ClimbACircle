@@ -1,0 +1,16 @@
+@import './common.scss';
+#tab-bar .demo {
+  display: flex;
+  flex-direction: column;
+}
+#tab-bar .demoName {
+  height:rem(40);
+}
+#tab-bar .demo-preview-item .am-tab-bar {
+  background-color: white;
+}
+.am-tabs-tab-bar-wrap{
+    position:fixed;
+    width:100%;
+    bottom:0;
+}

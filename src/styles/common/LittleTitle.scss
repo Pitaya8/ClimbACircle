@@ -1,0 +1,21 @@
+@import './common.scss';
+#LittleTitle{
+    width:rem(750);
+    height:rem(105);
+    border-bottom:rem(2) solid #F1F1F1;
+    background:white;
+    line-height:rem(105);
+    position: relative;
+    p{
+        width:100%;
+        text-align: center;
+        color:#BBBBBB;
+    }
+    span{
+        position: absolute;
+        top:0;
+        right:0;
+        color:#616161;
+        margin-right:rem(20);
+    }
+}
