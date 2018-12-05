@@ -1,0 +1,48 @@
+@import '../../common/common.scss';
+#CartBottom{
+    width:100%;
+    height:rem(98);
+    background:white;
+    position:fixed;
+    bottom:rem(121);
+    box-sizing: border-box;
+    padding-top:rem(25);
+    border-top:rem(2) solid #E3E3E3;
+    padding-left:rem(24);
+    #sele{
+        width:rem(41);
+        height:rem(41);
+        border:rem(2) solid #8E8E8E;
+        border-radius: 50%;
+        display:inline-block;
+        vertical-align: middle;
+    }
+    p{
+        display:inline-block;
+        font-size:rem(25);
+        margin-left:rem(11);
+        span{
+            margin-left:rem(30);
+            color:#FF4544;
+        }
+    }
+    input{
+        width:rem(160);
+        height:rem(98);
+        float: right;
+        position: absolute;
+        background:green;
+        color:white;
+        top:0;
+        text-align: center;
+        font-size:rem(30);
+    }
+    input[value="结算"]{
+        right:0;
+        background:#FF4544;
+    }
+    input[value="编辑"]{
+        right:rem(160);
+        background:#3C8EE5;
+    }
+}

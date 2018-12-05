@@ -1,0 +1,32 @@
+@import './common.scss';
+#GoodsList{
+    ul{
+        width:100%;
+        overflow: hidden;
+        margin-bottom:rem(50);
+        li{
+            width:33%;
+            float:left;
+            margin-top:rem(10);
+            text-align: center;
+            img{
+                width:rem(230);
+                height:rem(240);
+            }
+            p{
+                width:rem(240);
+                font-size:rem(20);
+                box-sizing: border-box;
+                padding-left:rem(6);
+                overflow: hidden;
+            }
+            span{
+                width:100%;
+                color:red;
+                text-align: center;
+                display:block;
+                margin-top:rem(20);
+            }
+        }
+    }
+}

@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 
 import {Tabbar} from './commons/Tabbar'
 
+
+
+
 class App extends Component {
   render() {
     return (

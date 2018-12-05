@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import CartBottom from './CartBottom'
+import NullGoods from './NullGoods'
 class ShopCard extends Component {
   render() {
     return (
       <div id="ShopCard">
-      购物车
+      	<NullGoods/>
+      	<CartBottom/>
       </div>
     );
   }

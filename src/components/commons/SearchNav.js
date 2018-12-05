@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../styles/pages/SearchNav.scss'
+import '../../styles/common/SearchNav.scss'
 
 class SearchNav extends Component {
   render() {

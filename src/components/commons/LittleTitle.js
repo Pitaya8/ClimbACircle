@@ -5,10 +5,18 @@ class LittleTitle extends Component {
   render() {
     return (
       <div id="LittleTitle">
-      		<p>——蜥蜴类——</p>
+      		<p>——
+      			<i className={this.props.icon}></i>
+      			&nbsp;
+	      		<strong>{this.props.info}
+	      		</strong>&nbsp;——
+      		</p>
       		<span>更多 ></span>
       </div>
     );
+  }
+  componentDidMount(){
+  	console.log(document.querySelector('#LittleTitle p strong').innerHTML)
   }
 }
 

@@ -1,0 +1,23 @@
+@import '../../common/common.scss';
+#NullGoods{
+    width:rem(270);
+    margin:rem(50) auto;
+    text-align: center;
+    div{
+        margin:rem(100) auto;
+        width:rem(160);
+        height:rem(160);
+        background:#D7D7DC;
+        color:#3F3F3F;
+        border-radius: 50%;
+        margin-bottom:rem(50);
+        box-sizing: border-box;
+        padding-top:rem(50);
+        font-size:rem(50);
+    }
+    p{
+        width:rem(290);
+        color:#888888;
+        text-align: center;
+    }
+}

@@ -1,0 +1,28 @@
+@import '../../common/common.scss';
+#Classify{
+    height:rem(650);
+    background: white;
+    #ClassifyContent{
+        ul{
+            box-sizing: border-box;
+            padding-top:rem(50);
+            li{
+                float:left;
+                width:25%;
+                text-align: center;
+                height:rem(200);
+                box-sizing: border-box;
+                padding-top:rem(10);
+                font-size: rem(60);
+                p{
+                    margin-top:rem(10);
+                    font-size: rem(30);
+                }
+                i{
+                    font-size:rem(60);
+                }
+            }
+        }
+    }
+}
+
